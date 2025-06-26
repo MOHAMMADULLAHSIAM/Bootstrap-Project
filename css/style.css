@@ -1,0 +1,287 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* common css */
+body{
+    background-color: white;
+}
+p{
+    font-size: 32px;
+    font-family: "DM Sans", sans-serif;
+}
+h1{
+    color:#AB0505 ;
+    font-size: 64px;
+    letter-spacing: 0%;
+    font-family: "DM Sans", sans-serif;
+}
+
+h2{
+    font-family: "DM Sans", sans-serif;
+    font-size: 64px;
+    line-height: auto;
+    letter-spacing: 0%;
+}
+h3{
+    font-size: 48px;
+    font-family: "DM Sans", sans-serif;
+    margin-bottom: 2px;
+}
+/* common css */
+
+
+
+
+
+/* navbar start */
+.navbar-nav{
+    margin-left: 80px;
+    gap: 58px;
+}
+.nav-link{
+    font-size: 25px;
+    color: #797575;
+    font-family: "Playfair Display", serif;
+}
+.navbar-nav li:first-child a{
+    color: #FF6624;
+}
+.nav-link:hover{
+    color: #FF6624;
+}
+.btn{
+    font-size: 25px;
+    width: 227px;
+    height: 62px;
+    margin:0 10px 0 60px;
+    background-color: #FF6624;
+    color: white;
+}
+.btn:hover{
+    background-color: #FF6624;
+    transform: scale(1.02);
+    transition: .2s ease-in-out;
+}
+/* navbar end */
+
+
+
+
+
+/* section banner start */
+#banner{
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 276px 0 160px 0;
+}
+.banner-contant p{
+    width: 578px;
+    margin-top: 26px;
+}
+
+.banner-contant{
+    height: auto;
+    width: 620px;
+    margin-left: 650px;
+}
+.Read-more {
+    height: auto;
+    /* width: auto; */
+    padding: 20px 30px 20px 30px;
+    border-radius: 30px;
+    margin-top: 60px;
+    display: block;
+}
+
+/* section banner end */
+
+
+
+/* section food start */
+.food-item-content p{
+    width: 408px;
+    margin-bottom: 3px;
+}
+.banner-contant{
+    align-items: end ;
+}
+.food-item{
+    margin: 90px 0px 39px 0;
+}
+.food-item-content{
+    padding: 10px;
+    transition: .2s linear;
+}
+.food-item-content:hover{
+    background-color: #FF6624;
+    color: white;
+    border-radius: 20px;
+    transform: scale(1.05);
+}
+.dashd{
+    width: 741px;
+    height: 4px;
+    background-color: #D9D9D9;
+    margin: auto;
+}
+/* section food end */
+
+
+
+
+
+/* section recipes start */
+.recipes-item{
+    margin-top: 83px;
+}
+.row .col-3 a img:hover{
+    transform: scale(1.1);
+    transition: .2s linear;
+}
+
+/* section recipes end */
+
+
+
+
+/* section blog start */
+.blog{
+    width: 80%;
+    padding-top: 115px;
+}
+.blog-content p{
+    width: 700px;
+}
+.img{
+    border: 8px solid #F15E1F;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #FF7F48;
+}
+.carousel-indicators{
+    top: 15px;
+}
+.fa-solid{
+    font-size: 66px;
+}
+.next-prev{
+    background-color: #F15E1F;
+}
+.prev{
+    font-size: 66px;
+    color: #ff7f4860;
+    transition: .2s linear;
+}
+.prev:hover{
+    color: #FF7F48;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    top: 30%;
+    
+}
+.back{
+    color: #D9D9D9;
+    position: absolute;
+    font-size: 67px;
+    top: 55px;
+    left: 125px;
+}
+.back-right{
+    position: absolute;
+    color:#D9D9D9 ;
+    font-size: 67px;
+    top:320px;
+    left: 880px;
+}
+/* section blog end */
+
+
+
+
+/* footer start */
+footer{
+    background-color: #FF6624;
+}
+footer .row{
+    padding-bottom: 138px;
+}
+footer h1{
+    font-size: 128px;
+}
+footer .row .col-5{
+    margin-left:110px;
+}
+footer .row .col-5 p{
+    font-size: 36px;
+    width: 523px;
+    font-family: "Playfair Display", serif;
+    color: white;
+    line-height: 48px;
+}
+footer .row .col-5 h5{
+    font-family: "Playfair Display", serif;
+    font-size: 40px;
+    color: white;
+}
+footer .row .col-5 a{
+    font-size: 30px;
+    color: white;
+}
+
+footer .row .col-2 ul li{
+    color: white;
+    font-size: 36px;
+    font-family: "DM Sans", sans-serif;
+    
+}
+footer .row .col-2 ul li:first-child{
+    text-decoration: underline;
+}
+footer .row .col-2 ul li:hover{
+    text-decoration: underline;
+}
+
+footer .row label{
+    font-size: 37px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+
+}
+footer .row input{
+    font-size: 25px;
+    color: white;
+    width: 300px;
+    height: 60px;
+    border: 3px solid white;
+    border-radius: 5px;
+    background-color:transparent;
+}
+footer .row .col-3 button{
+    font-size: 30px;
+    color: #FF6624;
+    background-color: white;
+    padding: 6px 22px;
+    border: none;
+    transition: .2s linear;
+
+}
+footer .row .col-3 button:hover{
+    color: black;
+    transform: translate(4px) scale(1.03);
+}
+.master a img{
+    background-color:#FF7F48;
+}
+
+/* footer end */
